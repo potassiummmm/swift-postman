@@ -13,9 +13,13 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+        for i in 0..<10 {
+            let newRequest = Request(context: viewContext)
+            newRequest.name = "test\(i)"
+            newRequest.time = Date()
+            newRequest.baseURL = "http://\(i)"
+            newRequest.method = "GET"
+            newRequest.parameters = [["1", "1"]]
         }
         do {
             try viewContext.save()

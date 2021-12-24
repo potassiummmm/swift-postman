@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0BAC99277247D800AFD403 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0BAC98277247D800AFD403 /* RequestManager.swift */; };
 		EC60D5872771C4B4002A7516 /* NetworkToolboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60D5862771C4B4002A7516 /* NetworkToolboxApp.swift */; };
 		EC60D5892771C4B4002A7516 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60D5882771C4B4002A7516 /* ContentView.swift */; };
 		EC60D58B2771C4B5002A7516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC60D58A2771C4B5002A7516 /* Assets.xcassets */; };
 		EC60D58E2771C4B5002A7516 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC60D58D2771C4B5002A7516 /* Preview Assets.xcassets */; };
 		EC60D5902771C4B5002A7516 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60D58F2771C4B5002A7516 /* Persistence.swift */; };
 		EC60D5932771C4B5002A7516 /* NetworkToolbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC60D5912771C4B5002A7516 /* NetworkToolbox.xcdatamodeld */; };
+		EC6E0EA5277362D200B59EC2 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E0EA4277362D200B59EC2 /* RequestModel.swift */; };
+		EC6E0EA82773893600B59EC2 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E0EA72773893600B59EC2 /* StringUtils.swift */; };
+		EC6E0EAE27739F2500B59EC2 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6E0EAD27739F2500B59EC2 /* Alamofire.xcframework */; };
+		EC6E0EAF27739F2500B59EC2 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC6E0EAD27739F2500B59EC2 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ECA9EBD82774D6D400CD95E5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9EBD72774D6D400CD95E5 /* WebView.swift */; };
+		ECA9EBDF2775D88800CD95E5 /* DownloadUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9EBDE2775D88800CD95E5 /* DownloadUtils.swift */; };
+		ECA9EBE32775DF5600CD95E5 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9EBE22775DF5600CD95E5 /* DownloadManager.swift */; };
+		ECB9E1322771E61F00DF4CAF /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9E1312771E61F00DF4CAF /* RequestView.swift */; };
+		ECB9E1342771E63200DF4CAF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9E1332771E63200DF4CAF /* HistoryView.swift */; };
+		ECB9E1362771E92300DF4CAF /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9E1352771E92300DF4CAF /* DownloadView.swift */; };
+		ECB9E1382771EF3800DF4CAF /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9E1372771EF3800DF4CAF /* ResponseView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EC6E0EB027739F2500B59EC2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC6E0EAF27739F2500B59EC2 /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EC0BAC98277247D800AFD403 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		EC60D5832771C4B4002A7516 /* NetworkToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC60D5862771C4B4002A7516 /* NetworkToolboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkToolboxApp.swift; sourceTree = "<group>"; };
 		EC60D5882771C4B4002A7516 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +50,17 @@
 		EC60D58D2771C4B5002A7516 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC60D58F2771C4B5002A7516 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EC60D5922771C4B5002A7516 /* NetworkToolbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetworkToolbox.xcdatamodel; sourceTree = "<group>"; };
+		EC6E0EA4277362D200B59EC2 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		EC6E0EA72773893600B59EC2 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		EC6E0EAB27739A9400B59EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC6E0EAD27739F2500B59EC2 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		ECA9EBD72774D6D400CD95E5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		ECA9EBDE2775D88800CD95E5 /* DownloadUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadUtils.swift; sourceTree = "<group>"; };
+		ECA9EBE22775DF5600CD95E5 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		ECB9E1312771E61F00DF4CAF /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		ECB9E1332771E63200DF4CAF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		ECB9E1352771E92300DF4CAF /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		ECB9E1372771EF3800DF4CAF /* ResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6E0EAE27739F2500B59EC2 /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +80,7 @@
 			children = (
 				EC60D5852771C4B4002A7516 /* NetworkToolbox */,
 				EC60D5842771C4B4002A7516 /* Products */,
+				EC6E0EAC27739F2500B59EC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +95,12 @@
 		EC60D5852771C4B4002A7516 /* NetworkToolbox */ = {
 			isa = PBXGroup;
 			children = (
+				EC6E0EAB27739A9400B59EC2 /* Info.plist */,
+				EC6E0EA62773890C00B59EC2 /* Utils */,
+				EC6E0EA3277362C100B59EC2 /* Model */,
+				ECB9E12F2771E52400DF4CAF /* View */,
 				EC60D5862771C4B4002A7516 /* NetworkToolboxApp.swift */,
-				EC60D5882771C4B4002A7516 /* ContentView.swift */,
+				ECB9E1302771E52B00DF4CAF /* ViewModel */,
 				EC60D58A2771C4B5002A7516 /* Assets.xcassets */,
 				EC60D58F2771C4B5002A7516 /* Persistence.swift */,
 				EC60D5912771C4B5002A7516 /* NetworkToolbox.xcdatamodeld */,
@@ -73,6 +117,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EC6E0EA3277362C100B59EC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E0EA4277362D200B59EC2 /* RequestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC6E0EA62773890C00B59EC2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E0EA72773893600B59EC2 /* StringUtils.swift */,
+				ECA9EBDE2775D88800CD95E5 /* DownloadUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC6E0EAC27739F2500B59EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E0EAD27739F2500B59EC2 /* Alamofire.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB9E12F2771E52400DF4CAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC60D5882771C4B4002A7516 /* ContentView.swift */,
+				ECB9E1312771E61F00DF4CAF /* RequestView.swift */,
+				ECB9E1332771E63200DF4CAF /* HistoryView.swift */,
+				ECB9E1352771E92300DF4CAF /* DownloadView.swift */,
+				ECB9E1372771EF3800DF4CAF /* ResponseView.swift */,
+				ECA9EBD72774D6D400CD95E5 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB9E1302771E52B00DF4CAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC0BAC98277247D800AFD403 /* RequestManager.swift */,
+				ECA9EBE22775DF5600CD95E5 /* DownloadManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +174,7 @@
 				EC60D57F2771C4B4002A7516 /* Sources */,
 				EC60D5802771C4B4002A7516 /* Frameworks */,
 				EC60D5812771C4B4002A7516 /* Resources */,
+				EC6E0EB027739F2500B59EC2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,10 +235,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB9E1322771E61F00DF4CAF /* RequestView.swift in Sources */,
+				ECB9E1382771EF3800DF4CAF /* ResponseView.swift in Sources */,
+				ECB9E1342771E63200DF4CAF /* HistoryView.swift in Sources */,
+				ECA9EBDF2775D88800CD95E5 /* DownloadUtils.swift in Sources */,
 				EC60D5932771C4B5002A7516 /* NetworkToolbox.xcdatamodeld in Sources */,
 				EC60D5902771C4B5002A7516 /* Persistence.swift in Sources */,
+				EC6E0EA5277362D200B59EC2 /* RequestModel.swift in Sources */,
+				ECB9E1362771E92300DF4CAF /* DownloadView.swift in Sources */,
+				EC0BAC99277247D800AFD403 /* RequestManager.swift in Sources */,
+				EC6E0EA82773893600B59EC2 /* StringUtils.swift in Sources */,
 				EC60D5892771C4B4002A7516 /* ContentView.swift in Sources */,
 				EC60D5872771C4B4002A7516 /* NetworkToolboxApp.swift in Sources */,
+				ECA9EBD82774D6D400CD95E5 /* WebView.swift in Sources */,
+				ECA9EBE32775DF5600CD95E5 /* DownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +382,12 @@
 				DEVELOPMENT_TEAM = 7ZZ3L5TDKA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetworkToolbox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,9 +414,12 @@
 				DEVELOPMENT_TEAM = 7ZZ3L5TDKA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetworkToolbox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
